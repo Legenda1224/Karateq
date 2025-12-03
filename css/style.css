@@ -28,7 +28,7 @@ body{
 }
 
 .header{
-    padding: 40px 0px 20px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 .header__flex{
@@ -103,13 +103,17 @@ body{
 @media screen and (max-width:400px){
 
 .logo__img img{
-    max-width: 70%;
+    max-width: 75%;
     height: auto;
 }
 .logo__vector img{
     max-width: 100%;
-    width: 180px;
+    width: 200px;
     height: auto;
+}
+.zagolovok h3{
+
+    font-size: 8vw;
 }
 
 }
