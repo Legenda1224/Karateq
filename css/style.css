@@ -103,7 +103,7 @@ body{
 @media screen and (max-width:400px){
 
 .logo__img img{
-    max-width: 80%;
+    max-width: 75%;
     height: auto;
 }
 .logo__vector img{
@@ -111,12 +111,9 @@ body{
     width: 200px;
     height: auto;
 }
-.zagolovok h3{
-
-    font-size: 8vw;
-}
 
 }
+
 
 
 
