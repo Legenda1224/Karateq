@@ -106,19 +106,18 @@ body{
     font-size: 8vw;
 }
 .logo__img img{
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
 }
 .logo__vector img{
     max-width: 100%;
-    width: 120px;
+    width: 150px;
     height: auto;
 }
 .zagolovok p{
-    font-size: 1vw;
+    font-size: 2vw;
 }
 }
-
 
 
 
