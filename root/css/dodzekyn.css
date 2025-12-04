@@ -61,14 +61,18 @@ body{
     height: auto;
 }
 
+
+/*dodzekyn*/
+
 .dodzekyn{
-    padding: 100px 10px 50px 10px;
+    /* padding: 100px 10px 50px 10px; */
     width: 100%;
     max-width: 750px;
     margin: 0 auto;
 }
 
 .dodzekyn__block{
+    margin: 100px 10px 50px 10px;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -182,6 +186,31 @@ body{
     align-items: center;
 }
 }
+
+@media screen and (max-width:960px){
+.exit{
+    background-color: #000000;
+}
+
+
+.exit a::before{
+    width: 0%;
+}
+
+.exit a:hover::before{
+    background-color: #ec9393;
+    opacity: 0.3;
+    left: -50%;
+}
+
+.exit:hover{
+    background-color: #0c0663;
+    
+
+}
+
+}
+
 
 @media screen and (max-width:600px){
 
