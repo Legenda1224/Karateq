@@ -146,8 +146,43 @@ body{
 }
 
 
+/*orange__blue*/
 
+.block__orange_blue{
+    margin-top: 100px;
+    max-width: 100%;
+    width: 100%;
+    
+}
 
+.block__orange_blue p{
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.block__orange_blue .kata__orange_blue{
+    padding: 40px 0;
+    background-color: #D34406;
+}
+
+.kata__orange_blue{
+    position: relative;
+}
+
+.kata__orange_blue::before{
+    content: "";
+    position: absolute;
+    right: 100px;
+    top: 0;
+    width: 30px;
+    height: 80px;
+    background-color: #372DCE;
+}
 
 
 
