@@ -184,6 +184,308 @@ body{
     background-color: #372DCE;
 }
 
+/*blue*/
+
+.block__blue{
+    margin-top: 100px;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.block__blue p{
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.block__blue .kata__blue{
+    padding: 40px 0;
+    background-color: #372DCE;
+}
+
+.kata__blue{
+    position: relative;
+}
+
+
+/*blue_yellow*/
+
+.block__blue_yellow{
+    margin-top: 100px;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.block__blue_yellow p{
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.block__blue_yellow .kata__blue_yellow{
+    padding: 40px 0;
+    background-color: #372DCE;
+}
+
+.kata__blue_yellow{
+    position: relative;
+}
+
+.kata__blue_yellow::before{
+    content: "";
+    position: absolute;
+    right: 100px;
+    top: 0;
+    width: 30px;
+    height: 80px;
+    background-color: #E2FF0A;
+}
+
+
+/*yellow*/
+
+.block__yellow{
+    margin-top: 100px;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.block__yellow p{
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.block__yellow .kata__yellow{
+    padding: 40px 0;
+    background-color: #E2FF0A;
+}
+
+.kata__yellow{
+    position: relative;
+}
+
+/*yellow_green*/
+
+.block__yellow_green{
+    margin-top: 100px;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.block__yellow_green p{
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.block__yellow_green .kata__yellow_green{
+    padding: 40px 0;
+    background-color: #E2FF0A;
+}
+
+.kata__yellow_green{
+    position: relative;
+}
+
+.kata__yellow_green::before{
+    content: "";
+    position: absolute;
+    right: 100px;
+    top: 0;
+    width: 30px;
+    height: 80px;
+    background-color: #0B980B;
+}
+
+/*green*/
+
+.block__green{
+    margin-top: 100px;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.block__green p{
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.block__green .kata__green{
+    padding: 40px 0;
+    background-color: #0B980B;
+}
+
+/*green_brown*/
+
+.block__green_brown{
+    margin-top: 100px;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.block__green_brown p{
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.block__green_brown .kata__green_brown{
+    padding: 40px 0;
+    background-color: #0B980B;
+}
+
+.kata__green_brown{
+    position: relative;
+}
+
+.kata__green_brown::before{
+    content: "";
+    position: absolute;
+    right: 100px;
+    top: 0;
+    width: 30px;
+    height: 80px;
+    background-color: #513421;
+}
+
+
+/*brown*/
+
+.block__brown{
+    margin-top: 100px;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.block__brown p{
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.block__brown .kata__brown{
+    padding: 40px 0;
+    background-color: #513421;
+}
+
+.kata__brown{
+    position: relative;
+}
+
+
+/*brown_gold*/
+
+.block__brown_gold{
+    margin-top: 100px;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.block__brown_gold p{
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.block__brown_gold .kata__brown_gold{
+    padding: 40px 0;
+    background-color: #513421;
+}
+
+.kata__brown_gold{
+    position: relative;
+}
+
+.kata__brown_gold::before{
+    content: "";
+    position: absolute;
+    right: 100px;
+    top: 0;
+    width: 30px;
+    height: 80px;
+    background-color: #EBFB00;
+}
+
+
+/*black_dan*/
+
+.block__black_dan{
+    margin-top: 100px;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.block__black_dan p{
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.block__black_dan .kata__black_dan{
+    padding: 40px 0;
+    background-color: #000000;
+}
+
+.kata__black_dan{
+    position: relative;
+}
+
+.kata__black_dan::before{
+    content: "";
+    position: absolute;
+    right: 100px;
+    top: 0;
+    width: 30px;
+    height: 80px;
+    background-color: #EBFB00;
+}
 
 
 
