@@ -466,6 +466,7 @@ body{
     text-align: center;
     font-size: 18px;
     padding: 20px 10px;
+    border-bottom:1px solid white;
 }
 
 .block__black_dan .kata__black_dan{
@@ -593,3 +594,4 @@ body{
 }
 
 }
+
