@@ -53,6 +53,7 @@ body{
     transition: 0.4s linear;
     top: 0px;
     left: 0px;
+    z-index: 100;
     position: fixed;
     background-color: #9C3F3F;
     padding: 10px 10px;
@@ -683,3 +684,4 @@ body{
     margin-bottom: 20px;
 }
 }
+
