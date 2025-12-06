@@ -142,7 +142,7 @@ body{
 }
 
 .block__video__flex{
-    padding: 30px 10px 140px 10px;
+    padding: 80px 10px 60px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
