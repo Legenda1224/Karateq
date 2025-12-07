@@ -155,17 +155,38 @@ body{
 }
 
 .block__video__flex video{
-    margin: 0 30px;
+    margin: 0 0px;
 }
 
+.block__main{
+    margin: 0 20px 0 20px;
+}
+
+.block__main video{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+#pinan-go{
+    width: 100%;
+    max-width: 633px;
+    height: auto;
+}
+
+#sanchin{
+    width: 100%;
+    max-width: 633px;
+    height: auto;
+}
 
 
 .block__main_p{
     max-width: 100%;
-    width: 630px;
+    width: 600px;
     margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 50px;
+
+    margin: 40px 0 50px 0;
 }
 
 .block__main_p p{
@@ -576,17 +597,10 @@ body{
     font-size: 36px;
     margin: 0;
 }
-.block__video__flex video{
+/* .block__video__flex video{
     width: 500px;
     height: 300px;
-}
-.block__main_p{
-    max-width: 100%;
-    width: 500px;
-    margin: 0 auto;
-    margin-top: 40px;
-}
-
+} */
 .block__main_p p{
     padding: 15px;
     background: rgb(0, 0, 0);
@@ -598,16 +612,30 @@ body{
 }
 
 @media screen and (max-width:660px){
-.block__video__flex video{
-    width: 450px;
-    height: 300px;
+.block__main video{
+    width: 100%;
+    max-width:100%;
+    height: auto;
 }
 
+
+.block__main video{
+    margin: 0 0px;
+}
+
+.block__video__flex{
+    padding: 80px 10px 60px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .block__main_p{
     max-width: 100%;
-    width: 450px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .block__main_p p{
@@ -629,14 +657,14 @@ body{
     font-size: 30px;
     margin: 0;
 }
-.block__video__flex video{
+/* .block__video__flex video{
     width: 360px;
     height: 200px;
-}
+} */
 
 .block__main_p{
     max-width: 100%;
-    width: 360px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -684,14 +712,14 @@ body{
 }
 
 @media screen and (max-width:420px){
-.block__video__flex video{
+/* .block__video__flex video{
     width: 300px;
     height: 180px;
-}
+} */
 
 .block__main_p{
     max-width: 100%;
-    width: 290px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -709,13 +737,13 @@ body{
 }
 
 @media screen and (max-width:380px){
-.block__video__flex video{
+/* .block__video__flex video{
     width: 270px;
     height: 160px;
-}
+} */
 .block__main_p{
     max-width: 100%;
-    width: 270px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 20px;
