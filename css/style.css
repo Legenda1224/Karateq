@@ -40,6 +40,8 @@ body{
     height: auto;
 }
 
+
+
 .zagolovok p{
     margin: 0;
     font-family: "Stardos Stencil", system-ui;
@@ -56,6 +58,7 @@ body{
     font-size: 50px;
 }
 
+
 .logo__vector img{
     max-width: 100%;
     height: auto;
@@ -66,7 +69,7 @@ body{
 /*container*/
 
 .container__main{
-    padding: 100px 0 20px 0;
+    padding: 100px 0 100px 0;
     max-width: 100%;
     width: 1260px;
     margin: 0 auto;
@@ -113,7 +116,6 @@ body{
     left: -100%;
     top: 0;
     background-color: #9C3F3F;
-    
     transform: skew(150deg);
 }
 
@@ -138,10 +140,12 @@ body{
     justify-content: center;
     padding: 0px 10px;
 }
+
 }
 
 
 @media screen and (max-width:1020px){
+    
 
 .zagolovok{
     padding: 40px 0 40px 0;
@@ -156,13 +160,50 @@ body{
     margin: 0;
 }
 
+.logo__vector{
+margin: 0 0 0 100px ;
+}
+
+
+.logo__img{
+    margin: 0 100px 0 0 ;
+}
+
 .header__flex{
-    flex-direction: column;
+    justify-content: center;
+    /* flex-direction: column; */
     align-items: center;
+}
+.logo__img{
+    order: 1;
+}
+.logo__vector{
+    order: 2;
+}
+
+.zagolovok{
+    order: 3;
+}
+}
+
+@media screen and (max-width:700px){
+.logo__vector{
+margin: 0 0 0 50px ;
+}
+
+
+.logo__img{
+    margin: 0 50px 0 0 ;
 }
 }
 
 @media screen and (max-width:600px){
+.container__main{
+    padding: 50px 0 20px 0;
+}
+.zagolovok{
+    padding: 70px 0 40px 0;
+}
 .main{
     padding: 0px 0px;
 }
@@ -194,6 +235,24 @@ body{
 }
 }
 
+@media screen and (max-width:480px){
+.container__main{
+    padding: 30px 0 20px 0;
+}
+.zagolovok{
+    padding: 70px 0 40px 0;
+}
+.logo__vector{
+    margin: 0 0 0 20px ;
+}
+
+
+.logo__img{
+    margin: 0 20px 0 0 ;
+}
+}
+
+
 
 @media screen and (max-width:400px){
 .main__block a{
@@ -203,13 +262,39 @@ body{
     letter-spacing: 1px;
 }
 .logo__img img{
-    max-width: 74%;
+    max-width: 60%;
     height: auto;
 }
 .logo__vector img{
     max-width: 100%;
-    width: 190px;
+    width: 150px;
     height: auto;
+}
+}
+
+@media screen and (max-width:380px){
+    .main__block a{
+    padding: 15px 0px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.logo__img img{
+    max-width: 50%;
+    height: auto;
+}
+.logo__vector img{
+    max-width: 100%;
+    width: 130px;
+    height: auto;
+}
+.logo__vector{
+margin: 0 0 0 0px ;
+}
+
+
+.logo__img{
+    margin: 0 0px 0 0 ;
 }
 }
 
