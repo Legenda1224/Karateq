@@ -16,7 +16,7 @@
 </head>
 <body>
 <a name="fon"></a>
-<a href="#fon" class="strelka">
+<a href="#fon" id="arrowTop" class="strelka strelka-arrowTop" hidden>
     <i class='bx bxs-chevron-up'></i>
 </a>
 
@@ -42,7 +42,7 @@
   </div>
 </div>
 
-
+<div class="scroll"></div>
 <div class="container__kata">
     <div class="kata__zagolovok">
         <h3>
@@ -257,9 +257,17 @@
     </div>
 </div>
 
+<script>
+    arrowTop.onclick = function() {
+        window.scrollTo(pageXOffset, 0);
+    };
+
+    window.addEventListener('scroll', function() {
+        arrowTop.hidden = (pageYOffset < document.documentElement.clientHeight);
+    });
+    </script>
 
 
-
-<script src="js/script.js"></script>    
+<script src="../js/script.js"></script>    
 </body>
 </html>
