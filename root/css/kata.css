@@ -109,12 +109,19 @@ body{
     padding: 100px 0 50px 0;
 }
 
+.kata__zagolovok{
+    box-shadow: 0px 0px 5px 2px #9C3F3F;
+    padding: 5px 0;
+    background-color: #9C3F3F;
+}
+
 .kata__zagolovok h3{
     font-family: "Stardos Stencil", system-ui;
     font-weight: 700;
     font-style: normal; 
     font-size: 40px;
     text-align: center;
+    color: white;
 }
 
 .kata__flex{
@@ -589,13 +596,30 @@ body{
 }
 
 @media screen and (max-width:720px){
-
+.block__orange{
+    margin-top: 50px;
+    max-width: 100%;
+    width: 100%;
+    
+}
 .container__kata{
-    padding: 50px 0 50px 0;
+    padding: 50px 0 20px 0;
+}
+.kata__zagolovok{
+    box-shadow: 0px 0px 5px 2px #9C3F3F;
+    padding: 8px 0;
+    background-color: #9C3F3F;
 }
 .kata__zagolovok h3{
-    font-size: 36px;
+    font-size: 33px;
     margin: 0;
+}
+.block__video__flex{
+    padding: 50px 10px 60px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 /* .block__video__flex video{
     width: 500px;
@@ -624,7 +648,7 @@ body{
 }
 
 .block__video__flex{
-    padding: 80px 10px 60px 10px;
+    padding: 30px 10px 20px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -716,6 +740,10 @@ body{
     width: 300px;
     height: 180px;
 } */
+ .kata__zagolovok h3{
+    font-size: 27px;
+    margin: 0;
+}
 
 .block__main_p{
     max-width: 100%;
