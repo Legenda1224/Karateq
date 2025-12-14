@@ -610,10 +610,7 @@ body{
     padding: 8px 0;
     background-color: #9C3F3F;
 }
-.kata__zagolovok h3{
-    font-size: 33px;
-    margin: 0;
-}
+
 .block__video__flex{
     padding: 50px 10px 60px 10px;
     display: flex;
@@ -673,14 +670,18 @@ body{
 
 }
 
+
+@media screen and (max-width:660px){
+.kata__zagolovok h3{
+    font-size: 30px;
+    margin: 30px;
+}
+}
 @media screen and (max-width:520px){
 .container__kata{
     padding: 20px 0 30px 0;
 }
-.kata__zagolovok h3{
-    font-size: 30px;
-    margin: 0;
-}
+
 /* .block__video__flex video{
     width: 360px;
     height: 200px;
@@ -732,7 +733,14 @@ body{
     background: #4EB4FF;
     box-shadow: 0px 0px 20px 1px #4EB4FF;
 }
+}
 
+
+@media screen and (max-width:460px){
+.kata__zagolovok h3{
+    font-size: 25px;
+    margin: 25px;
+}
 }
 
 @media screen and (max-width:420px){
@@ -740,10 +748,7 @@ body{
     width: 300px;
     height: 180px;
 } */
- .kata__zagolovok h3{
-    font-size: 27px;
-    margin: 0;
-}
+
 
 .block__main_p{
     max-width: 100%;
