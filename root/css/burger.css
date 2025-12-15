@@ -126,12 +126,12 @@ html::-webkit-scrollbar-thumb {
     z-index: 55;
     text-align: start;
     padding: 35px 20px 10px 20px ;
-    top: 30px;
+    top: 10px;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-weight: 400;
     color: white;
     transition: 0.4s;
@@ -164,3 +164,4 @@ html::-webkit-scrollbar-thumb {
     display: block;
 }
 }
+
