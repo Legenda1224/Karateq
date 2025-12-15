@@ -25,7 +25,7 @@ body{
 .strelka-arrowTop{
     text-decoration: none;
     position: fixed;
-    z-index: 40;
+    z-index: 500;
     right: 10px;
     bottom: 20px;
     background: #4EB4FF;
@@ -101,7 +101,7 @@ body{
 }
 
 
-
+/* 
 .exit{
     position: relative;
     transition: 0.4s linear;
@@ -151,7 +151,7 @@ body{
 .exit:hover a{
     color: white;
 }
-
+ */
 
 
 
@@ -337,11 +337,6 @@ table td{
     font-size: 14px;
 }
 
-span{
-    padding: 10px 0 10px 0px;
-    font-size: 16px;
-}
-
 
 .logo__img img{
     max-width: 60%;
@@ -422,10 +417,6 @@ table td{
     font-size: 12px;
 }
 
-span{
-    padding: 10px 0px 10px 0px;
-    font-size: 14px;
-}
 }
 
 
