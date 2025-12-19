@@ -42,15 +42,14 @@ body{
 }
 
 .dodzekyn__block{
-
     margin: 100px 10px 50px 10px;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
-    background-color: #9C3F3F;
-    border: 5px solid #c10404;
+    background-color: #1C3D5B;
+    border: 5px solid #295279;
     border-radius: 5px;
 }
 
